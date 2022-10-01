@@ -1,0 +1,41 @@
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Dallas Lacomb
+   10/1/2022
+   ROSTER PAGE CSS
+*/
+/*Used to size and position officer images*/
+/*WORKS ON 1475px - 1700px WIDTH*/
+.officers {
+    object-fit: cover;
+    width: 50%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21.6px;
+    border: 2px solid #3498db;
+    color: white;
+    background: #3498db;
+    position: absolute;
+    margin: auto;
+    top: -70px;
+    right: 0;
+    left: 0;
+  }
+  /*The Card for all the officers*/
+  .officersCards {
+    background-color: #76b5c5;
+  
+    height: auto;
+  }
+  /*Container that holds the 5 officer cards together*/
+  .officers-container {
+    margin-top: 100px;
+    width: 100%;
+  }
+  /*Officer H1 tag that currently says "OPEN HOUSE THIS FRIDAY"*/
+  .officerTitle {
+    color: white;
+    padding-top: 20%;
+    font-size: 30px;
+  }
+  /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  

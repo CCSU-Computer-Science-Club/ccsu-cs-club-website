@@ -19,10 +19,11 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf.urls.static import static
 from CSClubWebsite import settings
-from csclub_main import views
-from csclub_main.views import *
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path( '', views.main, name='main')
+    path('', include("csclub_main.urls")),
+    path('', include("csclub_master.urls")),
+
 ]

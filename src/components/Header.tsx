@@ -30,8 +30,6 @@ const Header = () => {
           </Link>
           <Link
             href="/contact"
-            target="_blank"
-            rel="noopener noreferrer"
             className="text-gray-500 hover:text-black dark:text-gray-300 dark:hover:text-white">
             
               Contact

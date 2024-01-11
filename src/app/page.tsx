@@ -1,9 +1,7 @@
 "use client"
 
-import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { IoMdSunny, IoMdMoon } from "react-icons/io";
-import Header from '../components/header'
+import Header from '../components/Header';
 
 export default function Home() {
 
@@ -25,7 +23,7 @@ export default function Home() {
 
       <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem] text-black dark:text-white">
-          CCSU <span className="text-red">CS</span> Club
+          CCSU <span className="text-blue-500">CS</span> Club
         </h1>
       </div>
     </main>

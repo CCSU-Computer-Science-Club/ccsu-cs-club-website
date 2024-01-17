@@ -1,3 +1,8 @@
+/*
+This is the home page the first page you open on the '/' route
+*/
+
+
 "use client";
 
 import React, { useState, useEffect } from "react";

@@ -1,3 +1,8 @@
+/*
+Page to contact the club including how to can communicate with us
+via discord, email, github, etc
+*/
+
 "use client";
 
 import React, { useState, useEffect } from "react";

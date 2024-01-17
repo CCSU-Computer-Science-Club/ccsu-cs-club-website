@@ -1,0 +1,3 @@
+/*
+Create a page showing the ways to join the club and some of the things the club does
+*/

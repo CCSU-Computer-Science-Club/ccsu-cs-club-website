@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Header from '../components/Header'
+import Metadata from "~/components/Metadata";
 
 export default function ContactPage() {
 
@@ -18,6 +19,8 @@ export default function ContactPage() {
   }, [isDark]);
 
   return (
+    <>
+    <Metadata title="Contact - CSC" description="Contact CCSU Computer Science Club"/>
     <main className="flex min-h-screen flex-col bg-white text-gray-500 dark:bg-black dark:text-gray-200">
       <Header isDark={isDark} setIsDark={setIsDark}/>
 
@@ -26,6 +29,6 @@ export default function ContactPage() {
           Contact
         </h1>
       </div>
-    </main>
+    </main></>
   );
 }

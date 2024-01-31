@@ -8,7 +8,10 @@ const Header = ({ isDark, setIsDark }: { isDark: boolean, setIsDark: React.Dispa
   return (
     <header className="p-4 text-black dark:text-white">
       <div className="flex items-center justify-between">
-        <Link href="/" className="text-xl font-semibold text-black dark:text-white">
+        <Link
+          href="/"
+          className="text-xl font-semibold text-black dark:text-white"
+          legacyBehavior>
           
             <span className="text-blue-500">CS</span> Club
           

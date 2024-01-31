@@ -32,10 +32,8 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold tracking-tight text-black dark:text-white sm:text-[5rem] text-center">
           CCSU <span className="text-blue-500">CS</span> Club
         </h1>
-        <Link href="/join" className="text-xl font-semibold text-black dark:text-white">
-
-          <span className="text-blue-500 underline">Join now</span>
-
+        <Link href="/" className="text-xl font-semibold text-black dark:text-white">
+          Join now
         </Link>
       </div>
       <Footer/>

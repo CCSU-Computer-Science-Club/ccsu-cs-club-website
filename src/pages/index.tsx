@@ -24,23 +24,21 @@ export default function Home() {
     }
   }, [isDark]);
 
-  return (
-    <>
-      <Metadata title="CSC" description="CCSU Computer Science Club" />
-      <main className="flex min-h-screen flex-col bg-white text-gray-500 dark:bg-black dark:text-gray-200">
-        <Header isDark={isDark} setIsDark={setIsDark} />
-        <div className="flex flex-col items-center justify-center gap-12 px-4 py-16 m-auto">
-          <h1 className="text-5xl font-extrabold tracking-tight text-black dark:text-white sm:text-[5rem] text-center">
-            CCSU <span className="text-blue-500">CS</span> Club
-          </h1>
-          <Link href="/join">
-            <a className="text-xl font-semibold text-black dark:text-white">
-              <span className="text-blue-500 underline">Join now</span>
-            </a>
-          </Link>
-        </div>
-        <Footer/>
-      </main>
-    </>
-  );
+  return <>
+    <Metadata title="CSC" description="CCSU Computer Science Club" />
+    <main className="flex min-h-screen flex-col bg-white text-gray-500 dark:bg-black dark:text-gray-200">
+      <Header isDark={isDark} setIsDark={setIsDark} />
+      <div className="flex flex-col items-center justify-center gap-12 px-4 py-16 m-auto">
+        <h1 className="text-5xl font-extrabold tracking-tight text-black dark:text-white sm:text-[5rem] text-center">
+          CCSU <span className="text-blue-500">CS</span> Club
+        </h1>
+        <Link href="/join" className="text-xl font-semibold text-black dark:text-white">
+
+          <span className="text-blue-500 underline">Join now</span>
+
+        </Link>
+      </div>
+      <Footer/>
+    </main>
+  </>;
 }
